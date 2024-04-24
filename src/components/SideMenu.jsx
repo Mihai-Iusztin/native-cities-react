@@ -1,16 +1,20 @@
-export default function SideMenu() {
+export default function SideMenu({
+  onSortByArea,
+  onSortByDistance,
+  onSortByPopulation,
+}) {
   return (
     <aside className="side-menu">
       <h2>Sort the Cities by:</h2>
       <div className="side-buttons">
         <div>
-          <button>Population</button>
+          <button onClick={onSortByPopulation}>Population</button>
         </div>
         <div>
-          <button>Surface</button>
+          <button onClick={onSortByArea}>Surface</button>
         </div>
         <div>
-          <button>Distance</button>
+          <button onClick={onSortByDistance}>Distance</button>
         </div>
       </div>
     </aside>

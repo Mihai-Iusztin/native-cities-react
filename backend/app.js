@@ -1,4 +1,5 @@
-import fs from 'fs';
+// import fs from 'fs';
+import fs from 'node:fs/promises';
 import express from 'express';
 const app = express();
 
@@ -13,7 +14,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/cities', async (req, res) => {
-  const fileContent = await fs.readFile('/data/cities.json');
+  const fileContent = await fs.readFile('./data/cities.json');
   const citiesData = JSON.parse(fileContent);
   res.status(200).json({ cities: citiesData });
 });

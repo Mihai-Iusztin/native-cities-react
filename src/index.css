@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   width: 20%;
   margin: 0;
   border-right: 2px solid green;
@@ -48,7 +48,7 @@ body {
 
 .side-buttons button {
   font-size: 1.5em;
-  width: 10em;
+  width: 7em;
   padding: 0.4em 0;
   background-color: rgb(28, 74, 5);
   color: azure;
@@ -91,4 +91,54 @@ body {
 
 .content-page header h1 {
   font-size: 3em;
+}
+
+.cities-content {
+  max-width: 85em;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.cities {
+  max-width: 80em;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+  grid-auto-rows: 20em;
+  grid-gap: 2em;
+  margin: 2em auto;
+  padding: 0;
+}
+
+.city {
+  position: relative;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  /* background-color: blue; */
+}
+
+.city button {
+  display: flex;
+  height: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.city img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.city h2 {
+  position: absolute;
+  font-size: 1.2em;
+  bottom: 0;
+  right: 1em;
+  margin: 1em auto;
+  color: antiquewhite;
+  font-weight: bold;
+  padding: 0.15em 0.35em;
 }
