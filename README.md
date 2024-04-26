@@ -8,13 +8,13 @@ Beautiful Cities from Romania
 
 ## Live
 
-[Demo](ttps://mihai-iusztin.github.io/native-cities-react/)
+[Demo](https://mihai-iusztin.github.io/native-cities-react/)
 
 ## Amazing Cities : about some nice places
 
-<img src = "/assets/amazing-cities.jpg" alt = "Amazing Cities" title = "Amazing Cities">
+<img src = "src/assets/amazing-cities.jpg" alt = "Amazing Cities" title = "Amazing Cities">
 
-The goal is apply and practice as many functionalities from React,to fetch data from a local server.
+The goal is to apply and practice as many functionalities from React,to fetch data from a local server.
 
 ## Steps
 
