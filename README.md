@@ -14,7 +14,7 @@ Beautiful Cities from Romania
 
 <img src = "src/assets/amazing-cities.jpg" alt = "Amazing Cities" title = "Amazing Cities">
 
-The goal is to apply and practice as many functionalities from React,to fetch data from a local server.
+The goal is to apply and practice as many functionalities from React, using React Hooks (useState and useeffect) and fetch data from a local dummy server.
 
 ## Steps
 
